@@ -1,0 +1,25 @@
+let dataBCRA = document.querySelector("#dataBCRA")
+const apiUrl = "usd";
+const proxyUrl = "https://bcra-proxy-cors.vercel.app";
+
+fetch(`${proxyUrl}/${apiUrl}`, {
+    headers: {
+        Authorization: "BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDgwMzQ2NDcsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJKT05BVEhBTlNBQklDSEBHTUFJTC5DT00ifQ.Ec5WlgW4IEYMbY-8J6XfIlQ0d5XhDp--a3vIfq6mFADdiJg5E3urwhE1CRuMQvyjCMmbBLfB_ck9qYqeLHrnVg",
+    },
+})
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data)
+        data.forEach((cotizacion) => {
+            const contenido = document.createElement("tr");
+            //contenido.classList.add("table-secondary");
+            //const contenidoTH = document.createElement("td");
+            // contenidoTH.classList.add("table-striped");
+            //contenido.appendChild(contenidoTH)
+            console.log(contenido)
+            contenido.innerHTML =
+                `<td class="table-primary"> La cotización de UN dólar al: ${cotizacion.d} es de $ ${cotizacion.v}</td>
+             `
+            dataBCRA.append(contenido)
+        })
+    })

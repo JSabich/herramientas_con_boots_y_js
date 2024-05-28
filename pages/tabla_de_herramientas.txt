@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabla de herramientas</title>
+        <link rel="stylesheet" href="../css/style.css" >
+        <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>HerraMaq máquinas y herramientas para el hogar y la industria</h1>
+              <a name="arriba"></a>  
+            <nav class="menu">
+                <a href="../index.html">
+                <img class="logo" src="../assets/img/logo.png" alt="Logo de HerraMaq mostrando una mano con herramienta" width="100" loading="lazy">
+                </a>
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio | Catálogo</a>
+                    </li>
+                    
+                    <li>
+                        <a href="./descripcion.html">Descripción</a>
+                    </li>
+
+                    <li>
+                        <a href="./registrarse.html">Registro</a>
+                    </li>
+                
+                    <li>
+                        <a href="./iniciar_sesion.html">Mi Cuenta</a>
+                    </li>
+                
+                </ul>
+            </nav>
+        </header>
+            <a href=""></a>
+            <table class="Tabla_herramientas">
+                <caption>Tabla de herramientas</caption>
+                <thead>
+                <tr>
+                    <th>Herramienta</th>
+                    <th>Imagen</th>
+                    <th>Uso</th>
+                    <th>Material</th>
+                    <th>Descripción</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>Martillo</td>
+                    <td><img src="../assets/img/Imagenes_para_tabla/martillo.webp" alt="martillo_galponero_mango_de_madera" width="100" height="80"></td>
+                    <td>Clavar / golpear</td>
+                    <td>Madera</td>
+                    <td>Mango de madera cabeza de hierro</td>
+                </tr>
+                <tr>
+                    <td>Tenaza</td>
+                    <td><img src="../assets/img/Imagenes_para_tabla/tenaza.png" alt="tenaza" width="100" height="80"></td>
+                    <td>Retirar clavos</td>
+                    <td>Madera</td>
+                    <td>Hierro</td>
+                </tr>
+                <tr>
+                    <td>Destornillador plano</td>
+                    <td><img src="../assets/img/Imagenes_para_tabla/destornillador_plano.png" alt="destornillador_plano" width="100" height="80"></td>
+                    <td rowspan="2">Retirar/ colocar tornillos</td>
+                    <td rowspan="2">Madera, metal, plástico, mampostería</td>
+                    <td rowspan="2">Mango goma o plástico Hierro</td>
+                </tr>
+                <tr>
+                    <td>Destornillador phillips</td>
+                    <td><img src="../assets/img/Imagenes_para_tabla/Destornillador_phillips.webp" alt="destornillador_phillips" width="100" height="80"></td>
+                   <!-- <td>Retirar/ colocar tornillos</td>
+                    <td>Madera, metal, plástico, mampostería</td>
+                    <td>Mango goma o plástico Hierro</td>
+                </tr>-->
+
+            </table>
+            <br><br>
+            <footer>
+                <nav>
+                    <ul>
+                        <li>
+                            <h4>
+                                Quiénes somos
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Estamos ubicado en CABA
+                            </h4>
+                            <h4>
+                            ¿Cómo llegar?
+                            </h4> 
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1z77xl_T61NmL97hotC9ubs0f8Ss&hl=en_US&ehbc=2E312F" width="320" height="240"></iframe>
+                        </li>
+                    </ul>
+                </nav>  
+                <a href="#arriba">arriba</a>
+            </footer>
+        
+    </body>
+</html>

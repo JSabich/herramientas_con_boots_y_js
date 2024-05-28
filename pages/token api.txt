@@ -1,0 +1,11 @@
+Su TOKEN de acceso para el API es:
+
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDgwMzQ2NDcsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJKT05BVEhBTlNBQklDSEBHTUFJTC5DT00ifQ.Ec5WlgW4IEYMbY-8J6XfIlQ0d5XhDp--a3vIfq6mFADdiJg5E3urwhE1CRuMQvyjCMmbBLfB_ck9qYqeLHrnVg
+
+El Header que debe agregar a sus requests al API es:
+
+Authorization: BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDgwMzQ2NDcsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJKT05BVEhBTlNBQklDSEBHTUFJTC5DT00ifQ.Ec5WlgW4IEYMbY-8J6XfIlQ0d5XhDp--a3vIfq6mFADdiJg5E3urwhE1CRuMQvyjCMmbBLfB_ck9qYqeLHrnVg
+
+El TOKEN es valido hasta:
+
+2025-05-23 18:10:47

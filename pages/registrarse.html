@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catálogo de Herramientas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+        <script src="https://kit.fontawesome.com/35835e09d4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+         
+   </head>
+    </head>
+    <body>
+        <header>
+            <section >
+               <nav class="navbar navbar-expand-lg bg-body- bg-dark p-2">
+                        <ul class="nav container-fluid" >
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">
+                                    <img src="../assets/img/logo2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                                    INICIO
+                                </a>
+                            </li>
+
+                            <li  class="nav-item">
+                                <a class="nav-link" href="./descripcion_proyecto.html">PROYECTOS</a>
+                            </li>
+                            
+                            <li  class="nav-item">
+                                <a class="nav-link"href="#">REGISTRO</a>
+                            </li>
+                        
+                            <li  class="nav-item">
+                                <a class="nav-link"href="./api_bcra.html">API BCRA</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./API_BCRA">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" >
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li class="nav-item">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                  </form>
+                            </li>
+                        </ul>
+            </nav>
+       
+            </section>
+            
+        </header>
+            
+        <main class="mainRegistro">
+           
+            <div class="container">
+                <h1>
+                    Página de Registro
+                </h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Usuario:</label>
+                                <input type="text" class="form-control" id="username" name="username">
+                                <div id="usernameError" class="error-message"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                                <div id="emailError" class="error-message"></div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña:</label>
+                                <input type="password" class="form-control" id="password" name="password">
+                                <div id="passwordError" class="error-message"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+         
+            
+        </main>
+        <footer class="footerRegistro">
+           
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
